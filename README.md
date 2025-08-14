@@ -1,3 +1,50 @@
+### Diagram (Textual)
+
+```
+User (Browser)
+	|
+	v
+CloudFront
+	|
+	v
+S3 (Static Site Hosting)
+	|
+	v
+Angular App
+	|
+	v
+Cognito (Auth) <-------------------+
+	|                               |
+	v                               |
+API Gateway <----------------------+ (REST API)
+	|
+	v
+Lambda (Receipt Processing)
+	|
+	v
+Textract (OCR)
+	|
+	v
+Lambda (Expense Categorization)
+	|
+	v
+DynamoDB (Expense Data)
+	|
+	v
+Step Functions (Workflow) <---+
+	|                          |
+	v                          |
+SNS (Budget Alerts)           |
+	|                          |
+	v                          |
+User (Notification)           |
+										|
+QuickSight (Reports) <--------+
+```
+
+---
+
+![Budget Tracker Architecture](./BudgetTracker.png)
 
 # Welcome to Smart Expense Tracker with Budget Insights!
 
