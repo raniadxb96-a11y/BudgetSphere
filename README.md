@@ -1,54 +1,5 @@
-### Diagram (Textual)
 
-```
-User (Browser)
-	|
-	v
-CloudFront
-	|
-	v
-S3 (Static Site Hosting)
-	|
-	v
-Angular App
-	|
-	v
-Cognito (Auth) <-------------------+
-	|                               |
-	v                               |
-API Gateway <----------------------+ (REST API)
-	|
-	v
-Lambda (Receipt Processing)
-	|
-	v
-Textract (OCR)
-	|
-	v
-Lambda (Expense Categorization)
-	|
-	v
-DynamoDB (Expense Data)
-	|
-	v
-Step Functions (Workflow) <---+
-	|                          |
-	v                          |
-SNS (Budget Alerts)           |
-	|                          |
-	v                          |
-User (Notification)           |
-										|
-QuickSight (Reports) <--------+
-```
-
----
-
-![Budget Tracker Architecture](./BudgetTracker.png)
-
-# Welcome to Smart Expense Tracker with Budget Insights!
-
-Hey there! 👋 This project is all about making your financial life easier. With Smart Expense Tracker, you can keep tabs on your daily spending, set monthly budgets, and get smart insights—all powered by the cloud and AWS magic.
+This project is all about making your financial life easier. With Smart Expense Tracker, you can keep tabs on your daily spending, set monthly budgets, and get smart insights—all powered by the cloud and AWS magic.
 
 ---
 
@@ -96,6 +47,7 @@ Hey there! 👋 This project is all about making your financial life easier. Wit
 
 7. **Step Functions (Optional):**
 	- For complex workflows (e.g., multi-step receipt processing, batch reporting), AWS Step Functions orchestrate Lambda invocations and error handling.
+![Budget Tracker Architecture](./BudgetTracker.png)
 
 ### Diagram (Textual)
 
