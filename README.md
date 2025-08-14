@@ -221,16 +221,6 @@ We love new ideas! Here’s how to get involved:
 
 ---
 
-## 🙋 Need Help?
-
-Open an issue or reach out at [your-email@example.com]. We’re here to help!
-
----
-
-## 📝 License
-
-MIT — use it, share it, build something awesome!
-
 ## User Stories
 - As a user, I want to scan receipts and have expenses automatically categorized.
 - As a user, I want to set monthly budgets and receive alerts when I exceed them.
