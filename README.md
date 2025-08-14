@@ -258,7 +258,7 @@ We love new ideas! Here’s how to get involved:
 4. Open a pull request
 
 ## Contact
-For questions or support, open an issue or contact the maintainer at [your-email@example.com].
+For questions or support, open an issue or contact the maintainer 
 
 To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
 
